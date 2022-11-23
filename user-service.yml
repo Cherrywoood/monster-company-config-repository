@@ -1,6 +1,4 @@
 spring:
-  application:
-    name: user-service
   r2dbc:
     url: r2dbc:postgresql://${POSTGRES_HOST:localhost}:${POSTGRES_PORT:5432}/${POSTGRES_DB:monster_company}?currentSchema=user_info
     username: ${POSTGRES_USER:postgres}
